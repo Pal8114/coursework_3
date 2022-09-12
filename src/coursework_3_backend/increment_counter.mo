@@ -24,7 +24,7 @@ actor {
     currentValue := n;
   };
 
-  public  query func http_request(req : http_types.HttpRequest) : async http_types.HttpResponse {
+  public shared query func http_request(req : http_types.HttpRequest) : async http_types.HttpResponse {
     var html = "<html><body><h1>" # " The value obtained is " # Nat.toText(currentValue) # "</h1></body></html>";
     {
         body = Blob.toArray(Text.encodeUtf8(html));
