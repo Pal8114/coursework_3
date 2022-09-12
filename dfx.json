@@ -1,7 +1,7 @@
 {
   "canisters": {
     "coursework_3_backend": {
-      "main": "src/coursework_3_backend/main.mo",
+      "main": "src/coursework_3_backend/increment_counter.mo",
       "type": "motoko"
     },
     "coursework_3_frontend": {

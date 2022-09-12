@@ -1,10 +1,8 @@
 # ICP开发入门课程第三课课程作业
 
-Welcome to your new coursework_3 project and to the internet computer development community. By default, creating a new project adds this README and some template files to your project directory. You can edit these template files to customize your project and to include your own code to speed up the development cycle.
+1、学习 Counter 的例子，并且部署到主网 
 
-To get started, you might want to explore the project directory structure and the default configuration file. Working with this project in your development environment will not affect any production deployment or identity tokens.
-
-To learn more before you start working with coursework_3, see the following documentation available online:
+2、给 Counter 添加一个 http_request 方法，用返回 html 的方式显示当前 count 的值。
 
 - [Quick Start](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html)
 - [SDK Developer Tools](https://sdk.dfinity.org/docs/developers-guide/sdk-guide.html)
