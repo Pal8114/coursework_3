@@ -3,19 +3,6 @@
     "coursework_3_backend": {
       "main": "src/coursework_3_backend/increment_counter.mo",
       "type": "motoko"
-    },
-    "coursework_3_frontend": {
-      "dependencies": [
-        "coursework_3_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/coursework_3_frontend/src/index.html"
-      },
-      "source": [
-        "src/coursework_3_frontend/assets",
-        "dist/coursework_3_frontend/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
